@@ -3,13 +3,13 @@ Instructions and Installer scripts for VSCode configured for use in the WPI robo
 
 # Setup Instructions
 
-## 1 install VSCode+Platformio
+## 1) install VSCode+Platformio
 
 Find the installer for VSCode here:
 
 https://code.visualstudio.com/
 
-## 2 Open VSCode and Install PlatformIO
+## 2) Open VSCode and Install PlatformIO
 
 Open VSCode Extension Manager
 
@@ -23,7 +23,7 @@ Install `PlatformIO IDE`
 
 Close VSCode to complete setup
 
-## 3 Download the example code
+## 3) Download the example code
 
 [Source Code Zip for Latest RBE1001Lib](https://github.com/WPIRoboticsEngineering/RBE1001Lib/archive/0.10.0.zip)
 
@@ -41,7 +41,7 @@ Select Extract All
 Extract to a known location, we recommend Documents\RBE1001Lib
 
 
-## 4 Open an Example
+## 4) Open an Example
 
 Open VSCode and select the new PlatformIO Plugin Icon
 
@@ -70,7 +70,7 @@ Select Import
 
 The first time you do this it will take a long time as PlatformIO needs to download and install the ESP32 toolchain.
 
-## Configure the projects libraries
+## 5) Configure the projects libraries
 
 Open the file `platformio.ini` in your new project and make the entire contents of the file read:
 
@@ -101,11 +101,18 @@ lib_deps =
 
 ```
 
-### V2 Shim Red Board
+### 5.1) V2 Shim Red Board
 
 If you have the V2 shim, use the code above. 
 
-### V3 Shim Red Board
+### 5.2) V3 Shim Red Board
 
 If you have the V3 shim, uncomment the line switching the library version to 0.9.4 and comment out the line for 0.10.0
+
+## 6) Compile
+
+Hit the compile (the little check mark) and verify that the example completes with `SUCCESS`
+
+<img src="image/compile.png" width="600">
+
 

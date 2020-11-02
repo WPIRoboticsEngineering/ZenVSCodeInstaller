@@ -68,4 +68,6 @@ Select Import
 <img src="image/import.png" width="600">
 
 
+The first time you do this it will take a long time as PlatformIO needs to download and install the ESP32 toolchain.
+
 

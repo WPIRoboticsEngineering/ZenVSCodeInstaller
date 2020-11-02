@@ -70,4 +70,33 @@ Select Import
 
 The first time you do this it will take a long time as PlatformIO needs to download and install the ESP32 toolchain.
 
+## Configure the projects libraries
+
+Open the file `platformio.ini` in your new project and make the entire contents of the file read:
+
+```
+; PlatformIO Project Configuration File
+;
+;   Build options: build flags, source filter
+;   Upload options: custom upload port, speed and extra flags
+;   Library options: dependencies, extra library storages
+;   Advanced options: extra scripting
+;
+; Please visit documentation for the other options and examples
+; https://docs.platformio.org/page/projectconf.html
+
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+monitor_speed = 115200
+lib_deps =
+  ESP32AnalogRead
+  ESP32Encoder
+  Esp32WifiManager
+  ESP32Servo
+  RBE1001Lib
+  WebServer
+
+```
 

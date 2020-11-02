@@ -122,4 +122,18 @@ Hit the compile (the little check mark) and verify that the example completes wi
 
 <img src="image/compile2.png" width="600">
 
+## 7) Upload code to ESP32
+
+Hit the upload button (the little right arrow) and verify it completes with success
+
+<img src="image/upload.png" width="600">
+
+### 7.1) If you get anything other than success, install the driver for you system
+
+[Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
+
+[Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
+
+
+
 

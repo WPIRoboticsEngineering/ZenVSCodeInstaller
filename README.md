@@ -113,6 +113,6 @@ If you have the V3 shim, uncomment the line switching the library version to 0.9
 
 Hit the compile (the little check mark) and verify that the example completes with `SUCCESS`
 
-<img src="image/compile.png" width="600">
+<img src="image/compile2.png" width="600">
 
 

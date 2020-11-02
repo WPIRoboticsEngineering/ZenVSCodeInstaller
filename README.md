@@ -11,6 +11,8 @@ https://code.visualstudio.com/
 
 ## 2) Open VSCode and Install PlatformIO
 
+### Windows and Linux users
+
 Open VSCode Extension Manager
 
 <img src="image/openExtMng.png" width="600">
@@ -22,6 +24,11 @@ Search for official `PlatformIO IDE` extension
 Install `PlatformIO IDE`
 
 Close VSCode to complete setup
+
+### MacOS users
+
+https://www.bradhouse.com/installing-platformio-for-mac
+
 
 ## 3) Download the example code
 

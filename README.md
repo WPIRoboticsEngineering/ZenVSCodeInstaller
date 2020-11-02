@@ -95,8 +95,17 @@ lib_deps =
   ESP32Encoder
   Esp32WifiManager
   ESP32Servo
-  RBE1001Lib
+  ;RBE1001Lib @ 0.9.4  ;Shim V3
+  RBE1001Lib @ 0.10.0  ;Shim V2
   WebServer
 
 ```
+
+### V2 Shim Red Board
+
+If you have the V2 shim, use the code above. 
+
+### V3 Shim Red Board
+
+If you have the V3 shim, uncomment the line switching the library version to 0.9.4 and comment out the line for 0.10.0
 

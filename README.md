@@ -10,9 +10,14 @@ Find the installer for VSCode here:
 
 https://code.visualstudio.com/
 
-## 2) Open VSCode and Install PlatformIO
+### 1.1) MacOS users ONLY
 
-### Windows and Linux users
+Install the Developer Command Line Tools from Apple (this is the thing that is currently broken). To do it you need to go to [developer.apple.com](https://developer.apple.com) and create an account. This is all pretty annoying, but it gets around the problem. Then navigate to the [download page for the tools](https://developer.apple.com/download/more). Check the boxes as shown on the sidebar (“Developer Tools” and “macOS”) as shown in the screen image above. Then download “Command Line Tools for Xcode 12”. It’s a pretty hefty download, but it should make everything work. After you download the tools, double click on the file in your Downloads folder to install.
+
+Now you can run VSCode by hitting Command-Space, type in “visual studio Code”. 
+
+
+## 2) Open VSCode and Install PlatformIO
 
 Open VSCode Extension Manager
 
@@ -26,9 +31,6 @@ Install `PlatformIO IDE`
 
 Close VSCode to complete setup
 
-### MacOS users
-
-https://www.bradhouse.com/installing-platformio-for-mac
 
 
 ## 3) Download the example code

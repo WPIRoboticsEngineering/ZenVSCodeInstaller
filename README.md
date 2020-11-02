@@ -1,4 +1,5 @@
-# ZenVSCodeInstaller
+# Installing VSCode/platformio
+
 Instructions and Installer scripts for VSCode configured for use in the WPI robotics program
 
 # Setup Instructions

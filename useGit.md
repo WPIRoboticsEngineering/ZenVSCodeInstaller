@@ -44,8 +44,6 @@ Navigate to where GitHub desktop cloned the files
 <img src="image/my1001Code.png" width="600">
 
 
-Use Steps 6 and 7 to verify everything.
-
 
 ## 5) Use GitHub Desktop to manage version control
 

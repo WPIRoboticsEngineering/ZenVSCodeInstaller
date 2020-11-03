@@ -68,6 +68,7 @@ or
  * Easy to share code with staff for online help
  * Version history of every committed change, you can always go back in time
  * Code backed up on a server and accessible to whole team
+ * Best as the starter code for the Final Project
  
 #### Con
 

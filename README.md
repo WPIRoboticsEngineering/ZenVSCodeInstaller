@@ -20,7 +20,17 @@ Now you can run VSCode by hitting Command-Space, type in â€œvisual studio Codeâ€
 
 ## 2) Disable Private data leak
 
-From File > Preferences > Settings (macOS: Code > Preferences > Settings), search for telemetry, and uncheck the Telemetry: Enable Telemetry setting. This will silence all telemetry events from VS Code going forward.
+From File > Preferences > Settings 
+
+(macOS: Code > Preferences > Settings)
+
+<img src="image/disableTelemSettings.png" width="300">
+
+search for telemetry, and uncheck the 
+
+Telemetry: Enable Telemetry setting. This will silence all telemetry events from VS Code going forward.
+
+<img src="image/disableTelem.png" width="300">
 
 
 ## 3) Open VSCode and Install PlatformIO

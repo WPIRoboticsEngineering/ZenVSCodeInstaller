@@ -43,6 +43,38 @@ or
 
 [Follow these instructions for Git with a Template Repo of starter code](useGit.md)
 
+### 3.1 **Pro/Con of Example Code**
+
+#### Pro
+
+ * Quickly Open Examples
+ * Quickly Test Hardware
+ * Lots of different examples
+ * Best for running code you don't intend to change
+ 
+#### Con 
+
+ * Difficult to collaborate with team
+ * Difficult to share code with staff for online help
+ * Impossible  to go back in time to a previous version  
+ * Possible to lose all of the code 
+ 
+### 3.2 **Pro/Con of Git**
+
+#### Pro
+
+ * Project is pre-configured
+ * Easy to collaborate with team
+ * Easy to share code with staff for online help
+ * Version history of every committed change, you can always go back in time
+ * Code backed up on a server and accessible to whole team
+ 
+#### Con
+
+ * Only the one example in the Template 
+ * Git is one more thing to learn, although utterly essential long term, not required for 1001
+ * Collaboration with teams means the possibility of merge conflicts/resolutions
+
 ## 4) Compile
 
 Hit the compile (the little check mark) and verify that the example completes with `SUCCESS`

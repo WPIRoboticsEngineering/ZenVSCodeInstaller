@@ -37,7 +37,7 @@ Close VSCode to complete setup
 
 [Follow these instructions for Example Programs](openExample.md)
 
-[Follow these instructions for Git with an Template Repo of starter code](useGit.md)
+[Follow these instructions for Git with a Template Repo of starter code](useGit.md)
 
 ## 4) Compile
 

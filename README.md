@@ -63,7 +63,7 @@ or
 
 #### Pro
 
- * Project is pre-configured
+ * Project is pre-configured, no need to mess with the platform.ini or .gitignore
  * Easy to collaborate with team
  * Easy to share code with staff for online help
  * Version history of every committed change, you can always go back in time

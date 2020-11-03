@@ -18,8 +18,12 @@ Install the Developer Command Line Tools from Apple (this is the thing that is c
 
 Now you can run VSCode by hitting Command-Space, type in “visual studio Code”. 
 
+## 2) Disable Private data leak
 
-## 2) Open VSCode and Install PlatformIO
+From File > Preferences > Settings (macOS: Code > Preferences > Settings), search for telemetry, and uncheck the Telemetry: Enable Telemetry setting. This will silence all telemetry events from VS Code going forward.
+
+
+## 3) Open VSCode and Install PlatformIO
 
 Open VSCode Extension Manager
 
@@ -33,17 +37,9 @@ Install `PlatformIO IDE`
 
 Close VSCode to complete setup
 
-## 3) Open Your Starter Code
+## 4) Open Your Starter Code
 
-either
-
-[Follow these instructions for Examples as starter code](openExample.md)
-
-or
-
-[Follow these instructions for Git with a Template Repo of starter code](useGit.md)
-
-### 3.1 **Pro/Con of Example Code**
+### 4.1 **Pro/Con of Example Code**
 
 #### Pro
 
@@ -62,7 +58,7 @@ or
  * Awkward to go download the source and open it (This is a VSCode limitation)
  * Difficult to find additional examples for other libraries (This is a VSCode limitation)
  
-### 3.2 **Pro/Con of Git**
+### 4.2 **Pro/Con of Git**
 
 #### Pro
 
@@ -80,20 +76,29 @@ or
  * Only the one example in the Template, the RCCTL example 
  * Git is one more thing to learn, although utterly essential long term, not required for 1001
  * Collaboration with teams means the possibility of merge conflicts/resolutions
+### 4.3) Choose
 
-## 4) Compile
+either
+
+[Follow these instructions for Examples as starter code](openExample.md)
+
+or
+
+[Follow these instructions for Git with a Template Repo of starter code](useGit.md)
+
+## 5) Compile
 
 Hit the compile (the little check mark) and verify that the example completes with `SUCCESS`
 
 <img src="image/compile2.png" width="600">
 
-## 5) Upload code to ESP32
+## 6) Upload code to ESP32
 
 Hit the upload button (the little right arrow) and verify it completes with success
 
 <img src="image/upload.png" width="600">
 
-### 5.1) If you get anything other than success, install the driver for you system
+### 6.1) If you get anything other than success, install the driver for you system
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 

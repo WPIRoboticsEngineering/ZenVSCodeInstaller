@@ -71,7 +71,7 @@ or
  
 #### Con
 
- * Only the one example in the Template 
+ * Only the one example in the Template, the RCCTL example 
  * Git is one more thing to learn, although utterly essential long term, not required for 1001
  * Collaboration with teams means the possibility of merge conflicts/resolutions
 

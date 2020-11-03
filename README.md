@@ -48,7 +48,7 @@ Close VSCode to complete setup
 
 ## 4) Open Your Starter Code
 
-### 4.1 **Pro/Con of Example Code**
+### 4.1) **Pro/Con of Example Code**
 
 #### Pro
 
@@ -67,7 +67,7 @@ Close VSCode to complete setup
  * Awkward to go download the source and open it (This is a VSCode limitation)
  * Difficult to find additional examples for other libraries (This is a VSCode limitation)
  
-### 4.2 **Pro/Con of Git**
+### 4.2) **Pro/Con of Git**
 
 #### Pro
 
@@ -84,7 +84,7 @@ Close VSCode to complete setup
 
  * Only the one example in the Template, the RCCTL example 
  * Git is one more thing to learn, although utterly essential long term, not required for 1001
- * Collaboration with teams means the possibility of merge conflicts/resolutions
+ * Collaboration with teams meantelemetrys the possibility of merge conflicts/resolutions
 
 ### 4.3) Choose
 

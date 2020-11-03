@@ -4,7 +4,7 @@ Instructions and Installer scripts for VSCode configured for use in the WPI robo
 
 # Setup Instructions
 
-## 1) install VSCode+Platformio
+## 1) install VSCode
 
 Find the installer for VSCode here:
 

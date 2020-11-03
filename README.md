@@ -37,7 +37,7 @@ Close VSCode to complete setup
 
 either
 
-[Follow these instructions for Example Programs](openExample.md)
+[Follow these instructions for Examples as starter code](openExample.md)
 
 or
 
@@ -58,8 +58,8 @@ or
  * Difficult to share code with staff for online help
  * Impossible  to go back in time to a previous version  
  * Possible to lose all of the code 
- * Awkward to go download the source and open it
- * Difficult to find additional examples for other libraries
+ * Awkward to go download the source and open it (This is a VSCode limitation)
+ * Difficult to find additional examples for other libraries (This is a VSCode limitation)
  
 ### 3.2 **Pro/Con of Git**
 
@@ -70,6 +70,7 @@ or
  * Easy to share code with staff for online help
  * Version history of every committed change, you can always go back in time
  * Code backed up on a server and accessible to whole team
+ * GitHub Desktop helps make the Git workflow understandable and merge conflicts easier to resolve
  * Best as the starter code for the Final Project
  
 #### Con

@@ -30,7 +30,7 @@ search for telemetry, and uncheck the `Telemetry: Enable Telemetry` setting.
 
 <img src="image/disableTelem.png" width="600">
 
-This will silence all telemetry events from VS Code going forward.
+This will silence most private data leaks from VS Code going forward. Other leaks may come form plugins you install.
 
 ## 3) Open VSCode and Install PlatformIO
 

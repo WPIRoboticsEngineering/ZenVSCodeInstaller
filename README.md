@@ -60,7 +60,11 @@ search for telemetry, and uncheck the `Telemetry: Enable Telemetry` setting.
 
 <img src="image/disableTelem.png" width="600">
 
-This will silence most private data leaks from VS Code going forward. Other leaks may come form plugins you install. It s not possible to stop all private data leaks with VSCode. If data privacy is important, use our [Eclipse and Sloeber](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#arduino-and-the-esp32-toolchain-and-sloeber-eclipse) installers and instructions. 
+This will silence most private data leaks from VS Code going forward. Other leaks may come form plugins you install. It s not possible to stop all private data leaks with VSCode. 
+
+### 2.1) Free Software opt-out option
+
+If data privacy is important, use our [Eclipse and Sloeber](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#arduino-and-the-esp32-toolchain-and-sloeber-eclipse) installers and instructions. 
 
 ## 3) Open VSCode and Install PlatformIO
 

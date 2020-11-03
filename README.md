@@ -25,7 +25,29 @@ Now you can run VSCode by hitting Command-Space, type in “visual studio Code�
 ```
 DATA.
 Data Collection.
-The software may collect information about you and your use of the software, and send that to Microsoft. Microsoft may use this information to provide services and improve our products and services. You may opt-out of many of these scenarios, but not all, as described in the product documentation located at https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting. There may also be some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with Microsoft’s privacy statement. Our privacy statement is located at https://go.microsoft.com/fwlink/?LinkID=824704. You can learn more about data collection and use in the help documentation and our privacy statement. Your use of the software operates as your consent to these practices.
+The software may collect information about you and your use of the software, 
+
+and send that to Microsoft. Microsoft may use this information to provide 
+
+services and improve our products and services. You may opt-out of many of 
+
+these scenarios, but not all, as described in the product documentation located
+
+at https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting.
+
+There may also be some features in the software that may enable you and Microsoft 
+
+to collect data from users of your applications. If you use these features, you
+
+must comply with applicable law, including providing appropriate notices to users 
+
+of your applications together with Microsoft’s privacy statement. Our privacy 
+
+statement is located at https://go.microsoft.com/fwlink/?LinkID=824704. You can 
+
+learn more about data collection and use in the help documentation and our privacy 
+
+statement. Your use of the software operates as your consent to these practices.
 ```
 
 From File > Preferences > Settings 

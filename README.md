@@ -64,7 +64,7 @@ This will silence most private data leaks from VS Code going forward. Other leak
 
 ### 2.1) Free Software opt-out option
 
-If data privacy is important, use our [Eclipse and Sloeber](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#arduino-and-the-esp32-toolchain-and-sloeber-eclipse) installers and instructions. 
+If data privacy is important, use our [Eclipse+Sloeber](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#arduino-and-the-esp32-toolchain-and-sloeber-eclipse) installers and instructions and use Sloeber instead of VSCode. 
 
 ## 3) Open VSCode and Install PlatformIO
 

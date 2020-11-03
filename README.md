@@ -24,13 +24,13 @@ From File > Preferences > Settings
 
 (macOS: Code > Preferences > Settings)
 
-<img src="image/disableTelemSettings.png" width="300">
+<img src="image/disableTelemSettings.png" width="600">
 
 search for telemetry, and uncheck the 
 
 Telemetry: Enable Telemetry setting. This will silence all telemetry events from VS Code going forward.
 
-<img src="image/disableTelem.png" width="300">
+<img src="image/disableTelem.png" width="600">
 
 
 ## 3) Open VSCode and Install PlatformIO

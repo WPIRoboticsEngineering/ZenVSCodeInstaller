@@ -51,7 +51,7 @@ or
  * Quickly Test Hardware
  * Lots of different examples
  * Best for running code you don't intend to change
- * Choose option while *building* your robot
+ * Choose this option while *building/testing* your robot
  
 #### Con 
 

@@ -58,6 +58,8 @@ or
  * Difficult to share code with staff for online help
  * Impossible  to go back in time to a previous version  
  * Possible to lose all of the code 
+ * Awkward to go download the source and open it
+ * Difficult to find additional examples for other libraries
  
 ### 3.2 **Pro/Con of Git**
 

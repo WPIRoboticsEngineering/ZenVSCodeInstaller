@@ -49,4 +49,4 @@ Navigate to where GitHub desktop cloned the files
 
 For detailed instructions on how to use version control using GitHub desktop see these instructions
 
-https://programminghistorian.org/en/lessons/retired/getting-started-with-github-desktop
+https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop

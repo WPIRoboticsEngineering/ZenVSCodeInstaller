@@ -84,13 +84,15 @@ Close VSCode to complete setup
 
 ### 4.1) **Pro/Con of Example Code**
 
+Choose this option while *building/testing* your robot
+
 #### Pro
 
  * Quickly Open Examples
  * Quickly Test Hardware
  * Lots of different examples
  * Best for running code you don't intend to change
- * Choose this option while *building/testing* your robot
+ 
  
 #### Con 
 
@@ -103,6 +105,8 @@ Close VSCode to complete setup
  
 ### 4.2) **Pro/Con of Git**
 
+Choose this option while *programming* your robot
+
 #### Pro
 
  * Project is pre-configured, no need to mess with the platform.ini or .gitignore
@@ -112,13 +116,12 @@ Close VSCode to complete setup
  * Code backed up on a server and accessible to whole team
  * GitHub Desktop helps make the Git workflow understandable and merge conflicts easier to resolve
  * Best as the starter code for the Final Project
- * Choose this option while *programming* your robot
  
 #### Con
 
  * Only the one example in the Template, the RCCTL example 
  * Git is one more thing to learn, although utterly essential long term, not required for 1001
- * Collaboration with teams meantelemetrys the possibility of merge conflicts/resolutions
+ * Collaboration with teams means the possibility of merge conflicts/resolutions
 
 ### 4.3) Choose
 

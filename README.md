@@ -6,7 +6,7 @@ Instructions and Installer scripts for VSCode configured for use in the WPI robo
 
 ## 1) install VSCodium <= 1.45.1
 
-The VSCodium project exists so that you don’t have to download+build from source. This project includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to GitHub releases. These binaries are licensed under the MIT license. Telemetry is disabled.
+The VSCodium project exists so that you don’t have to download+build from source. VSCodium includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to GitHub releases. These binaries are licensed under the MIT license. **Telemetry is disabled.**
 
 [Windows](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller/releases/download/0.0.0/VSCodiumSetup-x64-1.45.1.exe)
 

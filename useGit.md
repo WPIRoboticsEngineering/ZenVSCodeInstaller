@@ -4,9 +4,9 @@ First create a GitHub account if you haven't already.
 
 Go to 
 
-```
+
 https://github.com/WPIRoboticsEngineering/RBE1001LibTemplate
-```
+
 
 and click on `Use this template`
 

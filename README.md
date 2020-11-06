@@ -4,11 +4,18 @@ Instructions and Installer scripts for VSCode configured for use in the WPI robo
 
 # Setup Instructions
 
-## 1) install VSCode
+## 1) install VSCodium <= 1.45.1
 
-Find the installer for VSCode here:
+The VSCodium project exists so that you don’t have to download+build from source. This project includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to GitHub releases. These binaries are licensed under the MIT license. Telemetry is disabled.
 
-https://code.visualstudio.com/
+[Windows](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller/releases/download/0.0.0/VSCodiumSetup-x64-1.45.1.exe)
+
+[MacOS](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller/releases/download/0.0.0/VSCodium.1.45.1.dmg)
+
+[Ubuntu](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller/releases/download/0.0.0/codium_1.45.1-1589539594_amd64.deb)
+
+[Other](https://github.com/VSCodium/vscodium/releases/tag/1.45.1)
+
 
 ### 1.1) MacOS users ONLY
 
@@ -18,55 +25,12 @@ Install the Developer Command Line Tools from Apple (this is the thing that is c
 
 Now you can run VSCode by hitting Command-Space, type in “visual studio Code”. 
 
-## 2) Disable Private data leak
+### 1.2) Read about why we use VSCodium instead of VSCode
 
-[Enabled by default per Secion 2.a of the user agreement: ](https://code.visualstudio.com/license)
+[We are protecting your private data.](usevscode.md)
 
-```
-DATA.
-Data Collection.
-The software may collect information about you and your use of the software, 
 
-and send that to Microsoft. Microsoft may use this information to provide 
-
-services and improve our products and services. You may opt-out of many of 
-
-these scenarios, but not all, as described in the product documentation located
-
-at https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting.
-
-There may also be some features in the software that may enable you and Microsoft 
-
-to collect data from users of your applications. If you use these features, you
-
-must comply with applicable law, including providing appropriate notices to users 
-
-of your applications together with Microsoft’s privacy statement. Our privacy 
-
-statement is located at https://go.microsoft.com/fwlink/?LinkID=824704. You can 
-
-learn more about data collection and use in the help documentation and our privacy 
-
-statement. Your use of the software operates as your consent to these practices.
-```
-
-From File > Preferences > Settings 
-
-(macOS: Code > Preferences > Settings)
-
-<img src="image/disableTelemSettings.png" width="600">
-
-search for telemetry, and uncheck the `Telemetry: Enable Telemetry` setting. 
-
-<img src="image/disableTelem.png" width="600">
-
-This will silence most private data leaks from VS Code going forward. Other leaks may come form plugins you install. It s not possible to stop all private data leaks with VSCode. 
-
-### 2.1) Free Software opt-out option
-
-If data privacy is important, use our [Eclipse+Sloeber](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard#arduino-and-the-esp32-toolchain-and-sloeber-eclipse) installers and instructions and use Sloeber instead of VSCode. 
-
-## 3) Open VSCode and Install PlatformIO
+## 2) Open VSCode and Install PlatformIO
 
 Open VSCode Extension Manager
 
@@ -80,9 +44,9 @@ Install `PlatformIO IDE`
 
 Close VSCode to complete setup
 
-## 4) Open Your Starter Code
+## 3) Open Your Starter Code
 
-### 4.1) **Pro/Con of Example Code**
+### 3.1) **Pro/Con of Example Code**
 
 Choose this option while *building/testing* your robot
 
@@ -103,7 +67,7 @@ Choose this option while *building/testing* your robot
  * Awkward to go download the source and open it (This is a VSCode limitation)
  * Difficult to find additional examples for other libraries (This is a VSCode limitation)
  
-### 4.2) **Pro/Con of Git**
+### 3.2) **Pro/Con of Git**
 
 Choose this option while *programming* your robot
 
@@ -123,7 +87,7 @@ Choose this option while *programming* your robot
  * Git is one more thing to learn, although utterly essential long term, not required for 1001
  * Collaboration with teams means the possibility of merge conflicts/resolutions
 
-### 4.3) Choose
+### 3.3) Choose
 
 either
 
@@ -133,19 +97,19 @@ or
 
 [Follow these instructions for Git with a Template Repo of starter code](useGit.md)
 
-## 5) Compile
+## 4) Compile
 
 Hit the compile (the little check mark) and verify that the example completes with `SUCCESS`
 
 <img src="image/compile2.png" width="600">
 
-## 6) Upload code to ESP32
+## 5) Upload code to ESP32
 
 Hit the upload button (the little right arrow) and verify it completes with success
 
 <img src="image/upload.png" width="600">
 
-### 6.1) If you get anything other than success, install the driver for you system
+### 5.1) If you get anything other than success, install the driver for you system
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 

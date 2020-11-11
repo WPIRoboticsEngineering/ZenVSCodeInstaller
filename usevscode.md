@@ -1,8 +1,15 @@
+# Not Recommended!
+
+These are the instructions to instal Microsoft VSCode. Microsoft has a very broad data gathering policy, and will leak private data on the first time you open the software, until the Telematry is disabled. More concerning is the fact that using the configuration to disable Telemetry does not entirely turn it off. 
+
+The Microsoft version offers no additional features in exchange for this data leak.
+
+If you already agreed to this data leak and want to use PlatfomrIO with your existing installation, here are the instructions. 
+
 ## 1) install VSCode
 
-Find the installer for VSCode here:
+We assume you already installed it, if not, head to the [regular setup instructions](https://github.com/WPIRoboticsEngineering/ZenVSCodeInstaller#setup-instructions)
 
-https://code.visualstudio.com/
 
 ### 1.1) MacOS users ONLY
 

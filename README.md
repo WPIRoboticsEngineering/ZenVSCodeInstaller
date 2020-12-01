@@ -109,9 +109,16 @@ Hit the upload button (the little right arrow) and verify it completes with succ
 
 <img src="image/upload.png" width="600">
 
-### 5.1) If you get anything other than success, install the driver for you system
+### 5.1) Windows If you get anything other than success, install the driver for you system
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
+
+After installing you should see in Device Manager this:
+
+<img src="image/windows-find-com-port.png" width="600">
+
+
+### 5.2) MacOS If you get anything other than success, install the driver for you system
 
 [Esp32 Driver MacOS](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
 

@@ -4,7 +4,7 @@ Instructions and Installer scripts for VSCode configured for use in the WPI robo
 
 # Setup Instructions
 
-## 1) install VSCodium <= 1.45.1
+## 1) install VSCode
 
 The VSCodium project exists so that you don’t have to download+build from source. VSCodium includes special build scripts that clone Microsoft’s vscode repo, run the build commands, and upload the resulting binaries for you to GitHub releases. These binaries are licensed under the MIT license. **Telemetry is disabled.**
 
@@ -25,7 +25,7 @@ Install the Developer Command Line Tools from Apple (this is the thing that is c
 
 Now you can run VSCode by hitting Command-Space, type in “visual studio Code”. 
 
-### 1.2) Read about why we use VSCodium instead of VSCode
+### 1.2) Read about why we use VSCodium instead of Microsoft VSCode
 
 [We are protecting your private data.](usevscode.md)
 

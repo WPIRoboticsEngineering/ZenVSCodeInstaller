@@ -113,6 +113,14 @@ Hit the upload button (the little right arrow) and verify it completes with succ
 
 [Esp32 Driver Windows](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/CP210x_Universal_Windows_Driver.zip)
 
+Extract the zip to the disk. If you dont know how to do that, install [7zip](https://www.7-zip.org/)
+
+Once in a normal non-zipped folder on the disk run:
+
+```
+CP210xVCPInstaller_x86.exe
+```
+
 After installing you should see in Device Manager this:
 
 <img src="image/windows-find-com-port.png" width="600">
